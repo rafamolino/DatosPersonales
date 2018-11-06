@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="textViewNombre">Name</string>
+    <string name="editTextNombre">Write your name</string>
+    <string name="textViewApellidos">LastNames</string>
+    <string name="editTextApellidos">Write your lastnames</string>
+    <string name="textViewEdad">Age</string>
+    <string name="editTextEdad">Put your age</string>
+    <string name="radH">Man</string>
+    <string name="radM">Woman</string>
+    <string name="textViewEC">Civil Status</string>
+    <string name="switchHijos">No/Yes</string>
+    <string name="textViewHijos">Do you have sons?</string>
+    <string name="btnInfo">Information</string>
+    <string name="btnLimpiar">Clean</string>
+    <string name="estadoCivil1">married</string>
+    <string name="estadoCivil2">divorced</string>
+    <string name="estadoCivil3">widower</string>
+    <string name="estadoCivil4">other</string>
+    <string name="gen1">man</string>
+    <string name="gen2">woman</string>
+    <string name="hijosi">with sons</string>
+    <string name="hijono">without sons</string>
+    <string name="menorEdad">under-age</string>
+    <string name="mayorEdad">adult</string>
+    <string name="error1">Name missing!</string>
+    <string name="error2">LastName missing!</string>
+    <string name="error3">Age missing!</string>
+</resources>

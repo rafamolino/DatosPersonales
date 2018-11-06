@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" translatable="false">Datos Personales</string>
+    <string name="textViewNombre">Nombre</string>
+    <string name="editTextNombre">Escriba su nombre</string>
+    <string name="textViewApellidos">Apellidos</string>
+    <string name="editTextApellidos">Escriba sus apellidos</string>
+    <string name="textViewEdad">Edad</string>
+    <string name="editTextEdad">Ponga su edad</string>
+    <string name="radH">Hombre</string>
+    <string name="radM">Mujer</string>
+    <string name="textViewEC">Estado Civil</string>
+    <string name="switchHijos">No/Si</string>
+    <string name="textViewHijos">¿Tienes hijos?</string>
+    <string name="no" translatable="false">No</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="btnInfo">Información</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="estadoCivil1">casad@</string>
+    <string name="estadoCivil2">separad@</string>
+    <string name="estadoCivil3">viud@</string>
+    <string name="estadoCivil4">otro</string>
+    <string name="gen1">hombre</string>
+    <string name="gen2">mujer</string>
+    <string name="hijosi">con hijos</string>
+    <string name="hijono">sin hijos</string>
+    <string name="mayorEdad">mayor de edad</string>
+    <string name="menorEdad">menor de edad</string>
+    <string name="error1">Falta el Nombre!</string>
+    <string name="error2">Faltan los Apellidos!</string>
+    <string name="error3">Falta la Edad!</string>
+
+
+
+
+
+
+
+
+
+</resources>
