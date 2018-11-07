@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="y">et</string>
+    <string name="textViewApellidos">Nom</string>
+    <string name="textViewNombre">Prénom</string>
+    <string name="editTextNombre">Écrire ton prenom</string>
+    <string name="editTextApellidos">Écrire ton nom</string>
+    <string name="textViewEdad">Âge</string>
+    <string name="editTextEdad">Écrire ton âge</string>
+    <string name="radH">Homme</string>
+    <string name="radM">Femme</string>
+    <string name="textViewEC">État Civil</string>
+    <string name="switchHijos">Non/Oui</string>
+    <string name="textViewHijos">Avez-vous des enfants?</string>
+    <string name="btnInfo">Information</string>
+    <string name="btnLimpiar">Débarrasser</string>
+    <string name="estadoCivil1">marié</string>
+    <string name="estadoCivil2">"divorcé "</string>
+    <string name="estadoCivil3">veuf</string>
+    <string name="estadoCivil4">autre</string>
+    <string name="gen1">homme</string>
+    <string name="gen2">femme</string>
+    <string name="hijosi">avec enfants</string>
+    <string name="hijono">sans enfants</string>
+    <string name="menorEdad">mineur</string>
+    <string name="mayorEdad">majeur</string>
+    <string name="error1">Il manque le prénom!</string>
+    <string name="error2">Il manque le nom!</string>
+    <string name="error3">Il manque âge!</string>
+</resources>
