@@ -114,39 +114,16 @@ public class MainActivity extends AppCompatActivity {
                     hijos = (switchHijos.isChecked()) ? getResources().getString(R.string.hijosi) : getResources().getString(R.string.hijono);
                     menormayor = (edad >= 18) ? getResources().getString(R.string.mayorEdad) : getResources().getString(R.string.menorEdad);
 
-                    txtInfo.setText(editTextApellidos.getText() + "," + editTextNombre.getText() + "," +menormayor + ", "+ genero + ", " +  opcionesEC.getSelectedItem() + " y " + hijos + "."  );
-
-
+                    txtInfo.setText(editTextApellidos.getText() + ", " + editTextNombre.getText() + ", " +menormayor + ", "+ genero + ", " +  opcionesEC.getSelectedItem() + " " +  getResources().getString(R.string.y) + " " + hijos + "."  );
 
                 }
                 else
                 {
                     txtInfo.setTextColor(getResources().getColor(R.color.rojo));
 
-                    if(editTextNombre.getText().toString().isEmpty())
-                    {
-                        //txtInfo.setText(getResources().getString(R.string.error1));
-                        cadena1=getResources().getString(R.string.error1);
-                    }
-                    if(editTextApellidos.getText().toString().isEmpty())
-                    {
-
-                        //txtInfo.setText(getResources().getString(R.string.error2));
-                        cadena2=getResources().getString(R.string.error2);
-
-                    }
-                    if(editTextEdad.getText().toString().isEmpty())
-                    {
-
-                        cadena3=getResources().getString(R.string.error3);
-                    }
-                    if(!editTextEdad.getText().toString().isEmpty())
-                    {
-                        edad = Integer.parseInt(editTextEdad.getText().toString());
-                        cadena3=getResources().getString(R.string.error3);
-
-                    }
-
+                    cadena1 = (editTextNombre.getText().toString().isEmpty()) ? getResources().getString(R.string.error1) : " ";
+                    cadena2 = (editTextApellidos.getText().toString().isEmpty()) ? getResources().getString(R.string.error2) : " ";
+                    cadena3 = (editTextEdad.getText().toString().isEmpty()) ? getResources().getString(R.string.error3) : " ";
 
                     txtInfo.setText(cadena1 + " " + cadena2 + " " + cadena3);
 

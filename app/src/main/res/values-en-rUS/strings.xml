@@ -27,4 +27,5 @@
     <string name="error1">Name missing!</string>
     <string name="error2">LastName missing!</string>
     <string name="error3">Age missing!</string>
+    <string name="y">and</string>
 </resources>
