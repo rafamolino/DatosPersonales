@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                     hombre.setChecked(true);
                     mujer.setChecked(false);
                     switchHijos.setChecked(false);
+                    opcionesEC.setSelection(0);
                     editTextNombre.requestFocus();
                                 }
         });
