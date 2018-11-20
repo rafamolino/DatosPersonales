@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="marginAll">5dp</dimen>
+    <dimen name="layout_weight">1</dimen>
+    <dimen  name="textSize">18sp</dimen>
+    <dimen  name="textSize2">12sp</dimen>
+
+
+
+
+
+
+
+
+
+
+</resources>
