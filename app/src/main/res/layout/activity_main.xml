@@ -2,94 +2,60 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    style="@style/EstiloVertical"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloHorizontal"
+
+        >
 
         <TextView
             android:id="@+id/textViewNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:text="@string/textViewNombre"
-            android:textSize="18sp" />
+            />
 
         <EditText
             android:id="@+id/editTextNombre"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:autofillHints=""
-            android:ems="10"
             android:hint="@string/editTextNombre"
             android:inputType="textCapSentences|textPersonName"
             tools:targetApi="o" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloHorizontal"
+
+        >
 
         <TextView
             android:id="@+id/textViewApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/textViewApellidos"
-            android:textSize="18sp" />
+            style="@style/EstiloWrap"
+            android:text="@string/textViewApellidos"/>
 
         <EditText
             android:id="@+id/editTextApellidos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:autofillHints=""
-            android:ems="10"
             android:hint="@string/editTextApellidos"
             android:inputType="textCapSentences|textPersonName"
             tools:targetApi="o" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="59dp"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloHorizontal"
+        >
 
         <TextView
             android:id="@+id/textViewEdad"
-            android:layout_width="76dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/textViewEdad"
-            android:textSize="18sp" />
+            style="@style/EstiloWrap"
+            android:text="@string/textViewEdad"/>
 
         <EditText
             android:id="@+id/editTextEdad"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
+            style="@style/EstiloWrap"
             android:hint="@string/editTextEdad"
             android:importantForAutofill="no"
             android:inputType="text|number"
@@ -97,121 +63,78 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp">
+        style="@style/EstiloHorizontal"
+        >
 
         <RadioGroup
             android:id="@+id/grupoG"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/EstiloMatch"
             android:gravity="center"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/radH"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/EstiloWrap"
                 android:checked="true"
                 android:text="@string/radH" />
 
 
             <RadioButton
                 android:id="@+id/radM"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/EstiloWrap"
                 android:checked="false"
                 android:text="@string/radM" />
         </RadioGroup>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloHorizontal"
+        >
 
         <TextView
             android:id="@+id/textViewEC"
-            android:layout_width="149dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/textViewEC"
-            android:textSize="18sp" />
+            style="@style/EstiloWrap"
+            android:text="@string/textViewEC"/>
 
         <Spinner
             android:id="@+id/OpcionesEC"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            style="@style/EstiloWrap"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloHorizontal"
+        >
 
         <TextView
             android:id="@+id/textViewHijos"
-            android:layout_width="99dp"
-            android:layout_height="51dp"
-            android:layout_weight="1"
-            android:text="@string/textViewHijos"
-            android:textSize="18sp" />
+            style="@style/EstiloWrap"
+            android:text="@string/textViewHijos"/>
 
         <Switch
             android:id="@+id/switchHijos"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:checked="false"
             android:text="@string/switchHijos"
             android:textOff="@string/no"
-            android:textOn="@string/yes"
-            android:textSize="18sp" />
+            android:textOn="@string/yes"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="3dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="3dp"
-        android:orientation="horizontal">
+        style="@style/EstiloMix">
 
         <Button
             android:id="@+id/btnInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:text="@string/btnInfo" />
 
         <Button
             android:id="@+id/btnLimpiar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            style="@style/EstiloWrap"
             android:text="@string/btnLimpiar" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/txtInfo"
-        android:layout_width="match_parent"
-        android:layout_height="59dp"
-        android:textSize="12sp"
+        style="@style/EstiloMix2"
         android:textStyle="bold" />
 </LinearLayout>

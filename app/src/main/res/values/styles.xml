@@ -1,11 +1,99 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="MiEstilo" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/rojo</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/negro</item>
+
+
     </style>
+
+    <style name="EstiloVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+
+
+
+
+
+    </style>
+    <style name="EstiloHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+        <item name="android:textSize">@dimen/textSize</item>
+
+
+
+
+
+    </style>
+    <style name="EstiloMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+        <item name="android:textSize">@dimen/textSize</item>
+
+
+
+
+
+    </style>
+    <style name="EstiloWrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+        <item name="android:textSize">@dimen/textSize</item>
+
+
+
+
+    </style>
+    <style name="EstiloMix">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+        <item name="android:textSize">@dimen/textSize</item>
+
+
+
+
+    </style>
+    <style name="EstiloMix2">
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/marginAll</item>
+        <item name="android:layout_weight">@dimen/layout_weight</item>
+        <item name="android:fontFamily">@font/kavoon</item>
+        <item name="android:textSize">@dimen/textSize2</item>
+
+
+
+
+    </style>
+
+
+
+    <style name="TemaPueba" parent="MiEstilo" />
+
 
 </resources>
